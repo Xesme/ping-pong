@@ -1,15 +1,14 @@
 body {
 font-family: 'Press Start 2P', cursive;
-
+background-color: black;
 }
 
 
 .container {
   margin: 10px;
-  border: solid;
+
   padding: 90px;
   background-color: black;
-
 }
 
 
