@@ -1,6 +1,6 @@
 #Ping-Pong Game
 
-[GitHub](https://github.com/Xesme/ping-pong)
+[GitHub](https://xesme.github.io/ping-pong/)
 
 Ping Pong Game, January 20th, 2017
 
