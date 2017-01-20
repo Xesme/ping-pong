@@ -3,14 +3,16 @@ font-family: 'Press Start 2P', cursive;
 background-color: black;
 }
 
+form {
+  margin-left: 50px;
+  font-weight: bold;
+}
 
 .container {
   margin: 10px;
-
   padding: 90px;
   background-color: black;
 }
-
 
 .jumbotron {
   background-color: rgba(167, 167, 167, 0.5);
@@ -20,27 +22,13 @@ background-color: black;
   height: auto;
   box-sizing: border-box;
   border: solid;
-
 }
 
 .main-box {
   border-style: solid;
   background-color: grey;
-
-
   box-sizing: border-box;
   padding: 3%;
-}
-
-.first-box {
-
-}
-
-}
-form {
-  margin-left: 50px;
-  font-weight: bold;
-  border: solid;
 }
 
 .btn {

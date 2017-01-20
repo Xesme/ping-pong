@@ -1,27 +1,44 @@
+#Ping-Pong Game
+
+[GitHub](http://github.com)
+
+Ping Pong Game, January 20th, 2017
+
+Author: Xia Amendolara
+
+##Description:
+
+This is program contains a game for web browser. It allows the user to enter and number and receive a response of "ping", "pong," or "ping-pong" if a correct number is entered.
 
 
-Specifications:
+##Specifications:
+Behavior | Input | Output
+------------ | ------------- | -------------
+When a string containing a number is entered it is converted to a integer| "5" | 5
+Numbers divisible by 3 will return with a string containing "ping" | 3 | "ping"
+Numbers divisible by 5 will return with a string containing "pong" | 5 | "pong"
+Numbers divisible by 15 will return with a string containing "ping-pong" | 15 | "ping-pong"
+The program will count up to the number provided insert "ping", "pong", or "ping-pong"| 5 | [1, 2, "ping", 4, "pong"]
 
-Behavior: The program will count until it finds a parameter and then it will insert "ping", "pong", or "ping-pong"
-Input: 5
-Output: 1, 2, "ping", 4, "pong", etc...
 
-Behavior: When a string containing a number is enter it is converted to a number.
-Input: "5"
-Output: 5
+##Setup and Installation Requirements:
 
-Behavior: Numbers divisible by 3 will return with a string containing "ping".
-Input: 3
-Output: "ping"
+Open terminal on MAC use git clone [hyperlink] to clone files to your desktop use cd [file name] to open files open the html file, and browser will pop up with contents of Ping-Pong Game.
 
-Behavior: Numbers divisible by 5 will return with a string containing "pong".
-Input: 5
-Output: "pong"
+##Known Bugs:
 
-Behavior: Numbers divisible by 15 will return with a string containing "ping-pong".
-Input: 15
-Output: "ping-pong"
+There are no known bugs at this time.
 
-Behavior:
-Input:
-Output:
+##Support and Contact Details:
+
+If you run into any issues, questions, or ideas please contact the creator of this program.
+
+##Technologies Used:
+
+This program was created with HTML, CSS, Bootstrap, JavaScrip, and Jquery.
+
+##License:
+
+This program features MIT licensing.
+
+*Copyright (C) 2017 Xia Amendolara*

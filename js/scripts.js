@@ -1,5 +1,4 @@
 // Back-end Logic//
-
  var game = function(numberInput){
    var pingPongGame = [];
    for (i = 1; i <= numberInput; i ++){
