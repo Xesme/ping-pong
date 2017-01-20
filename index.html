@@ -23,10 +23,11 @@
           <form id="text-box" action="index.html" method="post">
             <label for="userInput">Enter a number below:</label><br>
             <input id="userInput" type="number" name="userInput" value=""><br>
-            <button type="submit" name="button">Click here!</button>
-            <button type="button" name="clear">Clear Results</button>
+            <button type="submit" name="button">Submit</button>
+            <button type="reset">Clear</button>
           </form>
           <div id="userOutput">
+              <input id="reset" type="reset" value="Reset" onClick="window.location.reload()">
             <ul>
             </ul>
           </div>

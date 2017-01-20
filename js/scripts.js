@@ -27,8 +27,6 @@ $(document).ready(function() {
     var results = game(userInput);
     results.forEach(function(result){
       $("#userOutput").append("<li>" + result + "</li>");
-      console.log(result);
-      // alert("submit function has ended");
     });
   });
 });
