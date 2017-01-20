@@ -16,10 +16,14 @@
    };
     return pingPongGame;
  };
+ alert("backend is ready");
 
 
 // Front-end Logic //
-// $(document).ready(function(event) {
-//   event.preventDefault();
-//   alert("backend is ready");
-// });
+$(document).ready(function() {
+  alert("front-end has started");
+  $("#text-box").submit(function(event){
+    event.preventDefualt();
+    alert("submit function has started");
+  });
+});
