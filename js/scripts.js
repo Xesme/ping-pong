@@ -1,8 +1,8 @@
 // Back-end Logic//
 
- var game = function(number){
+ var game = function(numberInput){
    var pingPongGame = [];
-   for (i = 1; i <= number; i ++){
+   for (i = 1; i <= numberInput; i ++){
      if (i % 3 === 0 && i % 5 !== 0){
        pingPongGame.push("ping!");
      } else if (i % 5 === 0 && i & 3 !== 0){
@@ -16,14 +16,19 @@
    };
     return pingPongGame;
  };
- alert("backend is ready");
+ // alert("backend is ready");
 
 
 // Front-end Logic //
 $(document).ready(function() {
-  alert("front-end has started");
-  $("#text-box").submit(function(event){
-    event.preventDefualt();
-    alert("submit function has started");
+  $("#text-box").submit(function(event) {
+     event.preventDefault();
+    var userInput = parseInt($("#userInput").val());
+    var results = game(userInput);
+    results.forEach(function(result){
+      $("#userOutput").append("<li>" + result + "</li>");
+      console.log(result);
+      // alert("submit function has ended");
+    });
   });
 });
